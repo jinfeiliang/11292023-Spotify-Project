@@ -1,0 +1,60 @@
+/*@font-face {
+  font-family: "Gotham";
+  src:
+    url("/Fonts/Gotham-Book.woff2") format("woff2");
+    font-weight: normal;
+}
+@font-face {
+  font-family: "Gotham-Light";
+  src:
+    url("/Fonts/Gotham-Light.woff2") format("woff2");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Gotham-Bold";
+  src:
+    url("/Fonts/Gotham-Bold.woff2") format("woff2");
+  font-weight: bold;
+} deprecated */
+
+@font-face {
+  font-family: "Circular-Sp";
+  src:
+    url("/Fonts/CircularSp-Book.woff2") format("woff2");
+    font-weight: normal;
+}
+@font-face {
+  font-family: "Circular-Sp-Bold";
+  src:
+    url("/Fonts/CircularSp-Bold.woff2") format("woff2");
+    font-weight: bold;
+}
+@font-face {
+  font-family: "Circular-Sp-Title-Black";
+  src:
+    url("/Fonts/CircularSpTitle-Black.woff2") format("woff2");
+    font-weight: bold;
+}
+@font-face {
+  font-family: "Circular-Sp-Title-Bold";
+  src:
+    url("/Fonts/CircularSpTitle-Bold.woff2") format("woff2");
+    font-weight: bolder;
+}
+
+body {
+  font-family: "Circular-Sp";
+  color: white;
+}
+
+a {
+  font-family: "Circular-Sp-Bold";
+  font-weight: bold;
+}
+h1 {
+  font-family: "Circular-Sp-Title-Bold";
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Circular-Sp"; /* quitar el bold?*/
+}
